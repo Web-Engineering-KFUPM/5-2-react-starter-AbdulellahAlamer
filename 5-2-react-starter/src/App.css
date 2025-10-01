@@ -45,3 +45,32 @@
 }
 
 /* Add your custom styles below */
+.student-card {
+  width: 300px;
+  padding: 20px;
+  margin: 16px auto;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.student-card h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1f2937; /* dark gray */
+}
+
+.student-card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #4b5563; /* medium gray */
+}
